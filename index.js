@@ -8,6 +8,14 @@ app.get('/', (req, res) => {
 
 })
 
+app.post('/tasks', async (req, res) => {
+    try {
+        
+    } catch (error) {
+        
+    }
+})
+
 mongoose
     .connect(mongoDBURL)
     .then(() => {
