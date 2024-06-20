@@ -7,7 +7,7 @@ const taskSchema = mongoose.Schema(
             required: true
         },
         notes: {
-            type: Text,
+            type: String,
             required: false
         },
         completed: {
